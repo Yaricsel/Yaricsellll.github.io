@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="EstiloT.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+    <title>ETS</title>
+</head>
+<body>  
+ <nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center text-white" href="#">
+      <img src="imgss/Jeringa.jpeg" alt="Logo" width="50" height="45" class="me-2">
+      Enfermedades de Transmisión Sexual
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Inicio</a></li>
+          
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Enfermedades
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="vih.html">VIH</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <header>
+   <div class="container">
+    
+    <div class="carousel-container">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="sifilismorado.jpg"class="d-block w-100">
+            </img>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ENFERMEDADES DE TRANSMISIÓN SEXUAL</h5>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="vihmorado2.jpg"class="d-block w-100">
+            </img>
+          </div>
+
+          <div class="carousel-item">
+             <img src="herpespag.jpg"class="d-block w-100">
+            </img>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div> 
+
+  </div> 
+  </header>
+  <section>
+    <div class="descripcion-ets">
+  <div class="overlay">
+    <div class="contenido animado">
+      <h2>¿Qué son las ETS?</h2>
+      <p>
+        Las enfermedades de transmisión sexual (ETS) son infecciones que se transmiten por contacto sexual. 
+        Algunas pueden no mostrar síntomas al principio, pero es importante conocerlas, prevenirlas y tratarlas a tiempo.
+        Son causadas por bacterias, virus o parásitos, y pueden afectar a cualquier persona sexualmente activa. 
+      </p>
+    </div>
+  </div>
+</div>
+  </section>
+
+<div class="contenidoo animado">
+      <h2><em>Elige el tema que deseas explorar:</em></h2>
+    </div>
+    <article>
+      <section class="card-carousel">
+  <div class="carousel-track-container">
+    <div class="card-carousel-track">
+
+  <div class="mensaje-ets">
+  <div class="overlay">
+    <div class="contenido-mensaje">
+      <h4><em>Las ETS ya no son un tabú. La información es salud, y todos merecemos conocerla. Porque la ignorancia sí es un riesgo real.</em></h4>
+    </div>
+  </div>
+</div>
+</article>
+    
+  <footer class="infoets-footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About Us!</h2>
+        <p>ETS es una Página Web dedicada a informar, educar y romper el tabú 
+          sobre las Enfermedades de Transmisión Sexual. 
+          Buscamos generar conciencia con empatía y responsabilidad.</p>
+      </div>
+
+      <div class="footer-section links">
+        <h2>Enlaces rápidos</h2>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="vih.html">VIH</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section social">
+        <h2>Redes Sociales</h2>
+        <div class="social-icons">
+          <a href="https://www.instagram.com" target="_blank"><img src="imgss/instagram.jpg" alt="Instagram"></a>
+          <a href=" https://twitter.com" target="_blank"><img src="imgss/twitter.png" alt="Twitter"></a> 
+          <a href="https://www.facebook.com" target="_blank"><img src="imgss/facebook.jpg" alt="Facebook"></a>
+          <a href=" https://www.tiktok.com" target="_blank"><img src="imgss/tiktok.png" alt="Tiktok"></a> 
+        </div>
+        <div class="email">
+        <h5>Contacto</h5>
+        <p>📧 <a href="mailto:brithanyy.castroo@gmail.com">brithanyy.castroo@gmail.com</a></p>
+        <p>📞 +504 3368-2029</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 ETS - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script>
+  const track = document.querySelector('.card-carousel-track');
+  const cards = document.querySelectorAll('.card-carousel .card');
+  const cardWidth = cards[0].offsetWidth + 20;
+
+  let currentIndex = 0;
+  let interval;
+
+
+  function updateCarousel() {
+    track.style.transition = 'transform 0.5s ease-in-out';
+    track.style.transform = 'translateX(-' + (currentIndex * cardWidth) + 'px)';
+  }
+
+  function startCarousel() {
+    interval = setInterval(function () {
+      currentIndex++;
+      updateCarousel();
+
+      if (currentIndex === cards.length) { 
+        setTimeout(function () {
+          track.style.transition = 'none';
+          track.style.transform = 'translateX(0px)';
+          currentIndex = 0;
+        }, 500);
+      }
+    }, 2500);
+  }
+
+  function stopCarousel() {
+    clearInterval(interval);
+  }
+
+  track.addEventListener('mouseenter', stopCarousel);
+  track.addEventListener('mouseleave', startCarousel);
+
+  startCarousel();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>
